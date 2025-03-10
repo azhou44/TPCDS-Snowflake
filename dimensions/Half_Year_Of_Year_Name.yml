@@ -1,0 +1,18 @@
+unique_name: Half_Year_Of_Year_Name
+object_type: dimension
+label: Half_Year_Of_Year_Name
+hierarchies:
+  - unique_name: Half_Year_Of_Year_Name_Hierarchy
+    label: Half Year Of Year Name Hierarchy
+    levels:
+      - unique_name: Half_Year_Of_Year_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Half_Year_Of_Year_Name_Level
+    label: Half Year Of Year Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - half_year_of_year_name
+    name_column: half_year_of_year_name
+type: standard

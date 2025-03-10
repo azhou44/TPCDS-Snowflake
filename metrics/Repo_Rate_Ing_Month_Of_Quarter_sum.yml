@@ -1,0 +1,6 @@
+unique_name: Repo_Rate_Ing_Month_Of_Quarter_sum
+object_type: metric
+label: Repo_Rate_Ing_Month_Of_Quarter_sum
+calculation_method: sum
+column: reporting_month_of_quarter
+dataset: datecustom

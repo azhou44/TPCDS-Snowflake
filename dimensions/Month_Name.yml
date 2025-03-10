@@ -1,0 +1,18 @@
+unique_name: Month_Name
+object_type: dimension
+label: Month_Name
+hierarchies:
+  - unique_name: Month_Name_Hierarchy
+    label: Month Name Hierarchy
+    levels:
+      - unique_name: Month_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Month_Name_Level
+    label: Month Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - month_name
+    name_column: month_name
+type: standard

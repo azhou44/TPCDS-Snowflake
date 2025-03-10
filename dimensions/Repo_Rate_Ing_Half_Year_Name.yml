@@ -1,0 +1,18 @@
+unique_name: Repo_Rate_Ing_Half_Year_Name
+object_type: dimension
+label: Repo_Rate_Ing_Half_Year_Name
+hierarchies:
+  - unique_name: Repo_Rate_Ing_Half_Year_Name_Hierarchy
+    label: Repo Rate Ing Half Year Name Hierarchy
+    levels:
+      - unique_name: Repo_Rate_Ing_Half_Year_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Repo_Rate_Ing_Half_Year_Name_Level
+    label: Repo Rate Ing Half Year Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - reporting_half_year_name
+    name_column: reporting_half_year_name
+type: standard

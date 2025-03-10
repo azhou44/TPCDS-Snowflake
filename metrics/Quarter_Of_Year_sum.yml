@@ -1,0 +1,6 @@
+unique_name: Quarter_Of_Year_sum
+object_type: metric
+label: Quarter_Of_Year_sum
+calculation_method: sum
+column: quarter_of_year
+dataset: datecustom

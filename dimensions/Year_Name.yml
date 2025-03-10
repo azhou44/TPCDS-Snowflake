@@ -1,0 +1,18 @@
+unique_name: Year_Name
+object_type: dimension
+label: Year_Name
+hierarchies:
+  - unique_name: Year_Name_Hierarchy
+    label: Year Name Hierarchy
+    levels:
+      - unique_name: Year_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Year_Name_Level
+    label: Year Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - year_name
+    name_column: year_name
+type: standard

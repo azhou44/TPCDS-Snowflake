@@ -1,0 +1,6 @@
+unique_name: Month_Of_Year_sum
+object_type: metric
+label: Month_Of_Year_sum
+calculation_method: sum
+column: month_of_year
+dataset: datecustom

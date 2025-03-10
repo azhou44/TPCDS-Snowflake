@@ -1,0 +1,18 @@
+unique_name: Iso_8601_Week_Of_Year_Name_Repo_Rate_Ing_Day_Ctl
+object_type: dimension
+label: Iso_8601_Week_Of_Year_Name_Repo_Rate_Ing_Day_Ctl
+hierarchies:
+  - unique_name: Iso_8601_Week_Of_Year_Name_Repo_Rate_Ing_Day_Ctl_Hierarchy
+    label: Iso 8601 Week Of Year Name Repo Rate Ing Day Ctl Hierarchy
+    levels:
+      - unique_name: Iso_8601_Week_Of_Year_Name_Repo_Rate_Ing_Day_Ctl_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Iso_8601_Week_Of_Year_Name_Repo_Rate_Ing_Day_Ctl_Level
+    label: Iso 8601 Week Of Year Name Repo Rate Ing Day Ctl Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - iso_8601_week_of_year_name_reporting_day_ctl
+    name_column: iso_8601_week_of_year_name_reporting_day_ctl
+type: standard

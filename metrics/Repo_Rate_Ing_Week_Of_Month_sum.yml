@@ -1,0 +1,6 @@
+unique_name: Repo_Rate_Ing_Week_Of_Month_sum
+object_type: metric
+label: Repo_Rate_Ing_Week_Of_Month_sum
+calculation_method: sum
+column: reporting_week_of_month
+dataset: datecustom

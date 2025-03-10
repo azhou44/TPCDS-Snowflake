@@ -1,0 +1,18 @@
+unique_name: Quarter_Name
+object_type: dimension
+label: Quarter_Name
+hierarchies:
+  - unique_name: Quarter_Name_Hierarchy
+    label: Quarter Name Hierarchy
+    levels:
+      - unique_name: Quarter_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Quarter_Name_Level
+    label: Quarter Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - quarter_name
+    name_column: quarter_name
+type: standard

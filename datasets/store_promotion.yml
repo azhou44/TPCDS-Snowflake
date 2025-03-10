@@ -89,17 +89,17 @@ columns:
 connection_id: Connection - TPCDS
 sql: |-
   SELECT p.*, ss.* 
-  FROM "atscale_tutorial_data"."tpcds"."promotion" p
-  INNER JOIN "atscale_tutorial_data"."tpcds"."store_sales" ss
+  FROM "atscale_tutorials"."tpcds"."promotion" p
+  INNER JOIN "atscale_tutorials"."tpcds"."store_sales" ss
   ON ss."ss_promo_sk" = p."p_promo_sk"
 dialects:
   - dialect: DatabricksSQL
     sql: "SELECT p.*, ss.* 
       FROM atscale_tutorial_data.tpcds.promotion p
-      INNER JOIN atscale_tutorial_data.tpcds.store_sales ss
+      INNER JOIN atscale_tutorials.tpcds.store_sales ss
       ON ss.ss_promo_sk = p.p_promo_sk"
   - dialect: BigQuery
     sql: "SELECT p.*, ss.* 
       FROM atscale_tutorial_data.tpcds.promotion p
-      INNER JOIN atscale_tutorial_data.tpcds.store_sales ss
+      INNER JOIN atscale_tutorials.tpcds.store_sales ss
       ON ss.ss_promo_sk = p.p_promo_sk"

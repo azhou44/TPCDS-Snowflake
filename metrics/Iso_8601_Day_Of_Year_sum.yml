@@ -1,0 +1,6 @@
+unique_name: Iso_8601_Day_Of_Year_sum
+object_type: metric
+label: Iso_8601_Day_Of_Year_sum
+calculation_method: sum
+column: iso_8601_day_of_year
+dataset: datecustom

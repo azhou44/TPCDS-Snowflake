@@ -1,0 +1,6 @@
+unique_name: Repo_Rate_Ing_Half_Year_Of_Year_sum
+object_type: metric
+label: Repo_Rate_Ing_Half_Year_Of_Year_sum
+calculation_method: sum
+column: reporting_half_year_of_year
+dataset: datecustom

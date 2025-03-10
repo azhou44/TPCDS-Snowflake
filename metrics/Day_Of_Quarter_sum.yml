@@ -1,0 +1,6 @@
+unique_name: Day_Of_Quarter_sum
+object_type: metric
+label: Day_Of_Quarter_sum
+calculation_method: sum
+column: day_of_quarter
+dataset: datecustom

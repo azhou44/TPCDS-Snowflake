@@ -1,0 +1,6 @@
+unique_name: Day_Of_Week_sum
+object_type: metric
+label: Day_Of_Week_sum
+calculation_method: sum
+column: day_of_week
+dataset: datecustom

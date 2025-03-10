@@ -1,0 +1,6 @@
+unique_name: Half_Year_Of_Year_sum
+object_type: metric
+label: Half_Year_Of_Year_sum
+calculation_method: sum
+column: half_year_of_year
+dataset: datecustom

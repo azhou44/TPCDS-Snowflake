@@ -1,0 +1,18 @@
+unique_name: Week_Name
+object_type: dimension
+label: Week_Name
+hierarchies:
+  - unique_name: Week_Name_Hierarchy
+    label: Week Name Hierarchy
+    levels:
+      - unique_name: Week_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Week_Name_Level
+    label: Week Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - week_name
+    name_column: week_name
+type: standard

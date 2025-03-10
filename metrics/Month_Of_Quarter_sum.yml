@@ -1,0 +1,6 @@
+unique_name: Month_Of_Quarter_sum
+object_type: metric
+label: Month_Of_Quarter_sum
+calculation_method: sum
+column: month_of_quarter
+dataset: datecustom

@@ -1,0 +1,18 @@
+unique_name: Day_Of_Week_Name
+object_type: dimension
+label: Day_Of_Week_Name
+hierarchies:
+  - unique_name: Day_Of_Week_Name_Hierarchy
+    label: Day Of Week Name Hierarchy
+    levels:
+      - unique_name: Day_Of_Week_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Day_Of_Week_Name_Level
+    label: Day Of Week Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - day_of_week_name
+    name_column: day_of_week_name
+type: standard

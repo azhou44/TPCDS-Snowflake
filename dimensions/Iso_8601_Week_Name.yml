@@ -1,0 +1,18 @@
+unique_name: Iso_8601_Week_Name
+object_type: dimension
+label: Iso_8601_Week_Name
+hierarchies:
+  - unique_name: Iso_8601_Week_Name_Hierarchy
+    label: Iso 8601 Week Name Hierarchy
+    levels:
+      - unique_name: Iso_8601_Week_Name_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Iso_8601_Week_Name_Level
+    label: Iso 8601 Week Name Level
+    contains_unique_names: false
+    dataset: datecustom
+    key_columns:
+      - iso_8601_week_name
+    name_column: iso_8601_week_name
+type: standard
