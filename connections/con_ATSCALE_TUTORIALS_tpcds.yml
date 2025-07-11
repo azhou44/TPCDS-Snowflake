@@ -1,0 +1,6 @@
+unique_name: con_ATSCALE_TUTORIALS_tpcds
+object_type: connection
+label: con_ATSCALE_TUTORIALS_tpcds
+as_connection: Snowflake
+database: ATSCALE_TUTORIALS
+schema: tpcds
