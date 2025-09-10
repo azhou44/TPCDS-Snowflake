@@ -2,5 +2,5 @@ unique_name: Connection - TPCDS
 label: Connection - TPCDS
 object_type: connection
 as_connection: Snowflake
-database: {{database}}
-schema: {{schema}}
+database: ${database}
+schema: ${schema}
