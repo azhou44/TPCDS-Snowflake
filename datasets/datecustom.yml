@@ -200,6 +200,6 @@ columns:
     data_type: datetime
   - name: reporting_year_lykey
     data_type: datetime
-connection_id: Connection - TPCDS
+connection_id: con_ATSCALE_TUTORIALS_as_adventure
 database: ATSCALE_TUTORIALS
 table: datecustom
