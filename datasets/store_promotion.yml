@@ -89,8 +89,8 @@ columns:
 connection_id: Connection - TPCDS
 sql: |-
   SELECT p.*, ss.* 
-  FROM ATSCALE_TUTORIALS.TPCDS."promotion" p
-  INNER JOIN ATSCALE_TUTORIALS.TPCDS."store_sales" ss
+  FROM ATSCALE_TUTORIALS."tpcds"."promotion" p
+  INNER JOIN ATSCALE_TUTORIALS."tpcds"."store_sales" ss
   ON ss."ss_promo_sk" = p."p_promo_sk"
 dialects:
   - dialect: DatabricksSQL
