@@ -910,7 +910,7 @@ aggregates:
          dimension: Date Dimension - TPC-DS
          partition: name
          relationships_path:
-           - store_sales_Date_Dimension_Sold_1
+           - catalog_sales_Date_Dimension_Sold_1
 
        - name: d_catalog_sales_price_tier
          dimension: Catalog_Sales_Price_Tier
@@ -918,7 +918,7 @@ aggregates:
        - name: d_quarter_of_year
          dimension: Date Dimension - TPC-DS
          relationships_path:
-           - store_sales_Date_Dimension_Sold_1
+           - catalog_sales_Date_Dimension_Sold_1
 
      metrics:
        - m_cs_sales_price_sum
